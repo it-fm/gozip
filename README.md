@@ -16,5 +16,5 @@ import (
 
 func main() {
     gozip.Zip("folderToZip", "folder.zip")
-    gozip.Unzip("folder.zip", "./resultExtracted")
+    gozip.Unzip("folder.zip", "resultExtracted")
 }
