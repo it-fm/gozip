@@ -5,7 +5,7 @@ A simple library to compress and unzip a folder or file recursively
 go get -v -u github.com/it-fm/gozip
 ```
 
-Eaxample
+Example
 
 ```go
 package main
