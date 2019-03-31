@@ -5,7 +5,7 @@ A simple library to compress and unzip a folder or file recursively
 go get -v -u github.com/it-fm/gozip
 ```
 
-Example
+# Example
 
 ```go
 package main
@@ -18,3 +18,7 @@ func main() {
     gozip.Zip("folderToZip", "folder.zip")
     gozip.Unzip("folder.zip", "resultExtracted")
 }
+```
+# DO
+- add an encryption method (http://www.winzip.com/aes_info.htm, https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT)
+
