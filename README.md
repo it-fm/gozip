@@ -19,6 +19,6 @@ func main() {
     gozip.Unzip("folder.zip", "resultExtracted")
 }
 ```
-# DO
+# do it
 - add an encryption method (http://www.winzip.com/aes_info.htm, https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT)
 
