@@ -3,7 +3,7 @@ package gozip
 import (
 	"archive/zip"
 	"io"
-    "os"
+    	"os"
 	"path/filepath"
 	"fmt"
 	"strings"
